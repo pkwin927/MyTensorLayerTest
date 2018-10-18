@@ -2,7 +2,7 @@
 It's just my TensorLayer test
 
 
-* Sample Model
+* Simple Model
   * Classifier[[py](https://github.com/pkwin927/MyTensorLayerTest/blob/master/Tensorlayer/Classifier.py),[jupyter]]
   * Regression[[py](https://github.com/pkwin927/MyTensorLayerTest/blob/master/Tensorlayer/Regression.py),[jupyter]]
   * CNN[[py](https://github.com/pkwin927/MyTensorLayerTest/blob/master/Tensorlayer/CNN.py),[jupyter]]
