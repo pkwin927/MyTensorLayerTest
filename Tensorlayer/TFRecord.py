@@ -274,7 +274,7 @@ coord = tf.train.Coordinator()
 
 threads = tf.train.start_queue_runners(sess = sess, coord = coord)
 
-step = 0
+#step = 0
 
 for epoch in range(0,n_epoch):
     
@@ -321,16 +321,16 @@ for epoch in range(0,n_epoch):
 #        # and restore it as follow:
 #        # tl.files.load_and_assign_npz(sess=sess, name='model.npz', network=network)
             
-for step in range(0,1200):
+#for step in range(0,1200):
     
-    err, ac, _ = sess.run([cost, acc, train_op])
+#    err, ac, _ = sess.run([cost, acc, train_op])
     
-    if step % 50 == 0:
+#    if step % 50 == 0:
         
-        test_loss, test_acc = sess.run([Testcost, Testacc])
-        print('train loss: %.4f' % err, '| train accuracy: %.2f' % ac)
+#        test_loss, test_acc = sess.run([Testcost, Testacc])
+#        print('train loss: %.4f' % err, '| train accuracy: %.2f' % ac)
         
-        print('test loss: %.4f' % test_loss, '| test accuracy: %.2f' % test_acc)
+#        print('test loss: %.4f' % test_loss, '| test accuracy: %.2f' % test_acc)
 
         
             
